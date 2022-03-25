@@ -1,9 +1,10 @@
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
-
+import java.util.ArrayList;
 
 public class Solution8 {
 
@@ -16,7 +17,7 @@ public class Solution8 {
 		BufferedReader br = new BufferedReader(fr);
 		
 		//Use the String Split Method to Seperate strings into singular arrays and indexes
-		String[] fileWordArray = br.readLine().split(" ");
+		
 		HashMap<String, Integer> wordCounter = new HashMap<String, Integer>();
 		
 		
