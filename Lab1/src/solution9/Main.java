@@ -1,9 +1,13 @@
 package solution9;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		
 		PlayList playlist1 = new PlayList();
 		ArrayList<Song> songs = new ArrayList<Song>();
@@ -18,6 +22,12 @@ public class Main {
 		
 		playlist1.showPlaylist();
 		System.out.println(playlist1.findSong("Rising"));
+		
+		FileOutputStream fos = new FileOutputStream(
+				new File("C:\\Users\\ShafirFrazier\\OneDrive - Xpanxion\\Documents\\playlist.txt"));
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		oos.writeObject(playlist1);
+		
 
 	}
 

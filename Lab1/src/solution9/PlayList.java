@@ -1,8 +1,9 @@
 package solution9;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
-public class PlayList {
+public class PlayList implements Serializable {
 	
 	//Attributes
 	String name;
