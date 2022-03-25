@@ -14,4 +14,10 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>Documents</name>
+			<value>file:/C:/Users/Owner/Documents</value>
+		</variable>
+	</variableList>
 </projectDescription>
