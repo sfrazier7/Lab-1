@@ -21,7 +21,7 @@ public class Solution8 {
 		System.out.println(Arrays.toString(fileWordArray));
 		HashMap<String, Integer> wordCounter = new HashMap<String, Integer>();
 		
-		
+		//
 		Integer count;
 		for(int i = 0; i < fileWordArray.length; i++) {
 			//word gets added as a new key if it isn't found
