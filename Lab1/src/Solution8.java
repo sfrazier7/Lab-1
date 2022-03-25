@@ -15,7 +15,10 @@ public class Solution8 {
 		
 		//Convert The file into String
 		BufferedReader br = new BufferedReader(fr);
+		
 		//try ArrayList Convert from String Stream using br methods
+		ArrayList<String> fileText = new ArrayList<String>();
+		
 		
 		//Use the String Split Method to Seperate strings into singular arrays and indexes
 		
